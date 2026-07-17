@@ -9,8 +9,8 @@ export const profile = {
     url: "https://github.com/Sumit18-coder",
   },
   linkedin: "https://linkedin.com/in/sumit-avhale-50a944233/",
-  resumeFile: "/resume.pdf",
-  siteUrl: "https://REPLACE_WITH_DOMAIN.vercel.app",
+  resumeFile: "../public/data/resume.pdf",
+  siteUrl: "https://portfolio-pi-orcin-50.vercel.app/",
   tagline: "Sumit Avhale builds backend systems that hold up under real traffic.",
   subhead:
     "Computer engineering graduate focused on layered architecture, REST APIs, and full-stack delivery — Spring Boot and Node.js on the server, React on the client, Postgres and MongoDB underneath.",
@@ -40,7 +40,7 @@ export const profile = {
       details:
         "Engineered with Spring Boot, Spring Security, and Hibernate over PostgreSQL, applying OOP principles and layered architecture for scalable, reusable services. Developed 20+ REST APIs for employee management, leave applications, and approval workflows, with role-based access control, exception handling, validation, and Swagger documentation.",
       stack: ["Spring Boot", "Spring Security", "Hibernate", "PostgreSQL", "RBAC", "Swagger"],
-      github: "#",
+      github: "https://github.com/Sumit18-coder/Employee-Leave-Management-System",
       demo: "#",
     },
     {
@@ -51,7 +51,7 @@ export const profile = {
       details:
         "Built a full-stack video-sharing platform with JWT-based authentication, uploads, playlists, and dashboards, designing REST APIs and optimizing database queries. Backend workflows and queries were tuned to improve throughput and reduce latency under load.",
       stack: ["Node.js", "Express", "JWT", "REST APIs", "Query optimization"],
-      github: "#",
+      github: "https://github.com/Sumit18-coder/Project",
       demo: "#",
     },
     {
@@ -62,7 +62,7 @@ export const profile = {
       details:
         "Designed a modular MVC backend and built responsive React.js interfaces, developing RESTful Node.js/Express.js APIs and integrating MongoDB for product, user, and order data. APIs handle core business logic across product, user, and order operations.",
       stack: ["React", "Node.js", "Express", "MongoDB", "MVC"],
-      github: "#",
+      github: "https://github.com/Sumit18-coder/E-CommerceProject",
       demo: "#",
     },
   ],
