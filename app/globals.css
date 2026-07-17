@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+.dark {
+  --ink: 205 26% 6%;
+  --surface: 205 22% 10%;
+  --surface-2: 205 20% 14%;
+  --border: 205 15% 21%;
+  --border-soft: 205 15% 16%;
+  --text-primary: 210 33% 95%;
+  --text-secondary: 205 12% 63%;
+  --text-muted: 205 10% 39%;
+  --accent: 35 72% 63%;
+  --accent-ink: 32 78% 10%;
+  --success: 145 45% 65%;
+}
+
+.light {
+  --ink: 42 24% 97%;
+  --surface: 0 0% 100%;
+  --surface-2: 42 22% 93%;
+  --border: 40 20% 87%;
+  --border-soft: 40 20% 91%;
+  --text-primary: 210 22% 11%;
+  --text-secondary: 210 10% 36%;
+  --text-muted: 210 8% 56%;
+  --accent: 32 60% 43%;
+  --accent-ink: 40 100% 97%;
+  --success: 145 40% 34%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(var(--ink));
+  color: hsl(var(--text-primary));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background-color: hsl(var(--accent) / 0.3);
+  color: hsl(var(--text-primary));
+}
+
+.focus-ring {
+  outline: none;
+}
+.focus-ring:focus-visible {
+  outline: 2px solid hsl(var(--accent));
+  outline-offset: 2px;
+  border-radius: 4px;
+}
