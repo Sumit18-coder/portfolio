@@ -9,7 +9,7 @@ export const profile = {
     url: "https://github.com/Sumit18-coder",
   },
   linkedin: "https://linkedin.com/in/sumit-avhale-50a944233/",
-  resumeFile: "../public/data/resume.pdf",
+  resumeFile: "/data/resume.pdf",
   siteUrl: "https://portfolio-pi-orcin-50.vercel.app/",
   tagline: "Sumit Avhale builds backend systems that hold up under real traffic.",
   subhead:
