@@ -27,7 +27,7 @@ export function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <LinkButton href="#projects" variant="primary">View projects</LinkButton>
-            <LinkButton href={profile.resumeFile} variant="ghost">Download resume</LinkButton>
+            <LinkButton href={profile.resumeFile} download variant="ghost">Download resume</LinkButton>
             <LinkButton href="#contact" variant="ghost">Get in touch</LinkButton>
           </div>
 

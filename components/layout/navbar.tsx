@@ -70,6 +70,8 @@ export function Navbar() {
           <ThemeToggle />
           <a
             href={profile.resumeFile}
+            target="_blank"
+            rel="noopener noreferrer"
             className="focus-ring hidden rounded-lg border border-border bg-surface px-4 py-2 text-sm font-medium text-text-primary hover:border-accent md:inline-block"
           >
             Resume
